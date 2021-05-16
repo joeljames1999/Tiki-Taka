@@ -1,0 +1,10 @@
+platform :ios, '14.0'
+
+target 'Final Year' do
+  use_frameworks!
+
+  # Pods for Final Year
+
+ pod 'iOSDropDown'
+
+end
