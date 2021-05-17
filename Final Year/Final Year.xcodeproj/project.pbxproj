@@ -3,37 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1311962BF2C48C02281D6CCF /* Pods_Final_Year.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE08E4D66FD7959472C69BB /* Pods_Final_Year.framework */; };
 		FC386972264FCB8A00CA3B8F /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC386971264FCB8A00CA3B8F /* iOSDropDown.framework */; };
+		FC3869A52651D9D900CA3B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FB52461A00A0002A076 /* Main.storyboard */; };
+		FC3869A62651D9E500CA3B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FBD2461A00C0002A076 /* LaunchScreen.storyboard */; };
+		FC3869A72651D9FC00CA3B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FBB2461A00C0002A076 /* Assets.xcassets */; };
+		FC3869B4265298D600CA3B8F /* FixtureAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3869B3265298D600CA3B8F /* FixtureAPI.swift */; };
 		FC4A0FB02461A00A0002A076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A0FAF2461A00A0002A076 /* AppDelegate.swift */; };
 		FC4A0FB22461A00A0002A076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A0FB12461A00A0002A076 /* SceneDelegate.swift */; };
-		FC4A0FB42461A00A0002A076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A0FB32461A00A0002A076 /* ViewController.swift */; };
-		FC4A0FB72461A00A0002A076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FB52461A00A0002A076 /* Main.storyboard */; };
+		FC4A0FB42461A00A0002A076 /* FormationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A0FB32461A00A0002A076 /* FormationController.swift */; };
 		FC4A0FBA2461A00A0002A076 /* Final_Year.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC4A0FB82461A00A0002A076 /* Final_Year.xcdatamodeld */; };
-		FC4A0FBC2461A00C0002A076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FBB2461A00C0002A076 /* Assets.xcassets */; };
-		FC4A0FBF2461A00C0002A076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A0FBD2461A00C0002A076 /* LaunchScreen.storyboard */; };
-		FC88652D2476C1A200DB4A07 /* MessageBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC88652C2476C1A200DB4A07 /* MessageBoardViewController.swift */; };
+		FC88652D2476C1A200DB4A07 /* FixtureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC88652C2476C1A200DB4A07 /* FixtureController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		FC3869A32651D96800CA3B8F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		176C8F38B7E5290708499B94 /* Pods-Final Year.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Year.debug.xcconfig"; path = "Target Support Files/Pods-Final Year/Pods-Final Year.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE08E4D66FD7959472C69BB /* Pods_Final_Year.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Year.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1601BF2DF882D0ECFE09C50 /* Pods-Final Year.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Year.release.xcconfig"; path = "Target Support Files/Pods-Final Year/Pods-Final Year.release.xcconfig"; sourceTree = "<group>"; };
 		FC386971264FCB8A00CA3B8F /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3869B3265298D600CA3B8F /* FixtureAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureAPI.swift; sourceTree = "<group>"; };
 		FC4A0FAC2461A00A0002A076 /* Final Year.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Year.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A0FAF2461A00A0002A076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4A0FB12461A00A0002A076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC4A0FB32461A00A0002A076 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC4A0FB32461A00A0002A076 /* FormationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormationController.swift; sourceTree = "<group>"; };
 		FC4A0FB62461A00A0002A076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4A0FB92461A00A0002A076 /* Final_Year.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Year.xcdatamodel; sourceTree = "<group>"; };
 		FC4A0FBB2461A00C0002A076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4A0FBE2461A00C0002A076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4A0FC02461A00C0002A076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC88652C2476C1A200DB4A07 /* MessageBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBoardViewController.swift; sourceTree = "<group>"; };
+		FC88652C2476C1A200DB4A07 /* FixtureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +83,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC3869762651D54A00CA3B8F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A0FB12461A00A0002A076 /* SceneDelegate.swift */,
+				FC4A0FAF2461A00A0002A076 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FC3869772651D59600CA3B8F /* Visual */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A0FB52461A00A0002A076 /* Main.storyboard */,
+				FC4A0FBB2461A00C0002A076 /* Assets.xcassets */,
+				FC4A0FBD2461A00C0002A076 /* LaunchScreen.storyboard */,
+			);
+			path = Visual;
+			sourceTree = "<group>";
+		};
+		FC3869782651D5A300CA3B8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A0FB32461A00A0002A076 /* FormationController.swift */,
+				FC88652C2476C1A200DB4A07 /* FixtureController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC38697A2651D5B500CA3B8F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A0FC02461A00C0002A076 /* Info.plist */,
+				FC4A0FB82461A00A0002A076 /* Final_Year.xcdatamodeld */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FC3869B7265298ED00CA3B8F /* Fixture */ = {
+			isa = PBXGroup;
+			children = (
+				FC3869B3265298D600CA3B8F /* FixtureAPI.swift */,
+			);
+			path = Fixture;
+			sourceTree = "<group>";
+		};
 		FC4A0FA32461A00A0002A076 = {
 			isa = PBXGroup;
 			children = (
@@ -88,15 +149,11 @@
 		FC4A0FAE2461A00A0002A076 /* Final Year */ = {
 			isa = PBXGroup;
 			children = (
-				FC4A0FAF2461A00A0002A076 /* AppDelegate.swift */,
-				FC4A0FB12461A00A0002A076 /* SceneDelegate.swift */,
-				FC4A0FB52461A00A0002A076 /* Main.storyboard */,
-				FC4A0FB32461A00A0002A076 /* ViewController.swift */,
-				FC88652C2476C1A200DB4A07 /* MessageBoardViewController.swift */,
-				FC4A0FBB2461A00C0002A076 /* Assets.xcassets */,
-				FC4A0FBD2461A00C0002A076 /* LaunchScreen.storyboard */,
-				FC4A0FC02461A00C0002A076 /* Info.plist */,
-				FC4A0FB82461A00A0002A076 /* Final_Year.xcdatamodeld */,
+				FC3869782651D5A300CA3B8F /* Controllers */,
+				FC3869B7265298ED00CA3B8F /* Fixture */,
+				FC3869762651D54A00CA3B8F /* Delegate */,
+				FC3869772651D59600CA3B8F /* Visual */,
+				FC38697A2651D5B500CA3B8F /* Other */,
 			);
 			path = "Final Year";
 			sourceTree = "<group>";
@@ -115,6 +172,7 @@
 				03337BB93B79FF986D0247A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
+				FC3869A32651D96800CA3B8F /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -130,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Joel James";
 				TargetAttributes = {
 					FC4A0FAB2461A00A0002A076 = {
@@ -139,7 +197,7 @@
 				};
 			};
 			buildConfigurationList = FC4A0FA72461A00A0002A076 /* Build configuration list for PBXProject "Final Year" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -161,9 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4A0FBF2461A00C0002A076 /* LaunchScreen.storyboard in Resources */,
-				FC4A0FBC2461A00C0002A076 /* Assets.xcassets in Resources */,
-				FC4A0FB72461A00A0002A076 /* Main.storyboard in Resources */,
+				FC3869A72651D9FC00CA3B8F /* Assets.xcassets in Resources */,
+				FC3869A62651D9E500CA3B8F /* LaunchScreen.storyboard in Resources */,
+				FC3869A52651D9D900CA3B8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,11 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4A0FB42461A00A0002A076 /* ViewController.swift in Sources */,
+				FC4A0FB42461A00A0002A076 /* FormationController.swift in Sources */,
 				FC4A0FBA2461A00A0002A076 /* Final_Year.xcdatamodeld in Sources */,
 				FC4A0FB02461A00A0002A076 /* AppDelegate.swift in Sources */,
 				FC4A0FB22461A00A0002A076 /* SceneDelegate.swift in Sources */,
-				FC88652D2476C1A200DB4A07 /* MessageBoardViewController.swift in Sources */,
+				FC3869B4265298D600CA3B8F /* FixtureAPI.swift in Sources */,
+				FC88652D2476C1A200DB4A07 /* FixtureController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +331,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -332,6 +392,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -350,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -367,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A9NA3SLD6;
-				INFOPLIST_FILE = "Final Year/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Final Year/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A9NA3SLD6;
-				INFOPLIST_FILE = "Final Year/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Final Year/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
